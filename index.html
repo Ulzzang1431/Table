@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Fasting Table</h1>
+    <table id="table" border="2" cellspacing="5px" cellpadding="5px" border-collapse="collapse">
+        <tr>
+            <th class="thead" rowspan="2">State of Health</th>
+            <th class="mainhead" colspan="2">Fasting Value</th>
+            <th class="thead">After Eating</th>
+        </tr>
+        <tr>
+            <th class="thead">Minimum</th>
+            <th class="thead">Maximum</th>
+            <th class="thead">2 hours after eating</th>
+        </tr>
+        <tr class="tdata">
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr class="tdata">
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr class="tdata">
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>NA</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+
+</html>
